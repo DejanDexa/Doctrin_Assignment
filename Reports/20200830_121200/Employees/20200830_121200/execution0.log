@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2020-08-30T12:12:41</date>
+  <millis>1598782361821</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Employees</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="name">Employees</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Employees</property>
+  <property name="stopImmediately">false</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:41</date>
+  <millis>1598782361832</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = dexa - 192.168.0.29</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">dexa - 192.168.0.29</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:41</date>
+  <millis>1598782361832</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Mac OS X 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Mac OS X 64bit</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:41</date>
+  <millis>1598782361833</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.0.29</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.0.29</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:41</date>
+  <millis>1598782361835</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 7.6.6.205</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">7.6.6.205</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:41</date>
+  <millis>1598782361982</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start setup action : setUp</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="isIgnoredIfFailed">false</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:42</date>
+  <millis>1598782362103</millis>
+  <sequence>7</sequence>
+  <level>ERROR</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>startup failed:
+file:/Users/dexa/Katalon%20Studio/Asignement_Doctrin/Test%20Suites/Employees.groovy: 37: unable to resolve class KeywordLogger 
+ @ line 37, column 16.
+   	KeywordLogger logger = new KeywordLogger()
+                  ^
+
+file:/Users/dexa/Katalon%20Studio/Asignement_Doctrin/Test%20Suites/Employees.groovy: 37: unable to resolve class KeywordLogger 
+ @ line 37, column 25.
+   	KeywordLogger logger = new KeywordLogger()
+                           ^
+
+2 errors
+</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.codehaus.groovy.control.MultipleCompilationErrorsException</property>
+  <property name="failed.exception.stacktrace">org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/Users/dexa/Katalon%20Studio/Asignement_Doctrin/Test%20Suites/Employees.groovy: 37: unable to resolve class KeywordLogger 
+ @ line 37, column 16.
+   	KeywordLogger logger = new KeywordLogger()
+                  ^
+
+file:/Users/dexa/Katalon%20Studio/Asignement_Doctrin/Test%20Suites/Employees.groovy: 37: unable to resolve class KeywordLogger 
+ @ line 37, column 25.
+   	KeywordLogger logger = new KeywordLogger()
+                           ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptMethodAsRawText(ScriptEngine.java:133)
+	at com.kms.katalon.core.main.TestSuiteExecutor.runMethod(TestSuiteExecutor.java:237)
+	at com.kms.katalon.core.main.TestSuiteExecutor.lambda$0(TestSuiteExecutor.java:216)
+	at com.kms.katalon.core.main.TestSuiteExecutor.invokeTestSuiteMethod(TestSuiteExecutor.java:215)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:117)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1598782320544.run(TempTestSuite1598782320544.groovy:39)
+</property>
+  <property name="failed.exception.message">startup failed:
+file:/Users/dexa/Katalon%20Studio/Asignement_Doctrin/Test%20Suites/Employees.groovy: 37: unable to resolve class KeywordLogger 
+ @ line 37, column 16.
+   	KeywordLogger logger = new KeywordLogger()
+                  ^
+
+file:/Users/dexa/Katalon%20Studio/Asignement_Doctrin/Test%20Suites/Employees.groovy: 37: unable to resolve class KeywordLogger 
+ @ line 37, column 25.
+   	KeywordLogger logger = new KeywordLogger()
+                           ^
+
+2 errors
+</property>
+</record>
+<record>
+  <date>2020-08-30T12:12:42</date>
+  <millis>1598782362105</millis>
+  <sequence>8</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End End action : setUp</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2020-08-30T12:12:42</date>
+  <millis>1598782362148</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Employees</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>

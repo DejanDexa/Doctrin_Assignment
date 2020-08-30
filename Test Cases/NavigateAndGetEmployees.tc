@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>NavigateAndGetEmployees</name>
+   <tag></tag>
+   <comment>User has successfully navigated to careers page</comment>
+   <testCaseGuid>a32bb71f-9be7-4e0d-9c0c-b08af1b13146</testCaseGuid>
+</TestCaseEntity>
